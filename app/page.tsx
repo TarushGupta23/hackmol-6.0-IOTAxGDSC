@@ -4,6 +4,8 @@ import { useEffect, useState, useRef, use } from "react";
 import Image from "next/image";
 import { Meteors } from "@/components/magicui/meteors";
 import AboutUs from "@/components/About";
+import Tracks from "@/components/Tracks";
+import { Main } from "next/document";
 
 export default function Home() {
   const [scrollY, setScrollY] = useState(0);
@@ -398,6 +400,7 @@ export default function Home() {
         `}</style>
       </main>
       <AboutUs aboutUsSmallStars={aboutUsSmallStars} aboutUsBigStars={aboutUsBigStars}></AboutUs>
+      <Tracks />
     </>
   );
 }
