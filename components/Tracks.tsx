@@ -234,7 +234,7 @@ export default function MainTracks() {
 
             <header className="mb-12 mt-10 text-center font-custom">
                 <h1 className="text-5xl font-bold mb-2">
-                    <span className="text-[#0cf]">Sponser</span> Tracks
+                    <span className="text-[#0cf]">Sponsor</span> Tracks
                 </h1>
                 <hr className="border-t-0 w-1/2 mx-auto my-4" style={{ height: '2px', background: 'linear-gradient(to right, transparent, #0cf, transparent)' }} />
                 <p className="text-[#0cf] uppercase tracking-wider text-sm">
