@@ -46,7 +46,7 @@ const Navbar = () => {
           </div>
 
           {/* Register Button */}
-          <div className="hidden md:block">
+          {/* <div className="hidden md:block">
             <Link href="/register" className="relative group">
               <div className="transition-colors duration-200 px-8 py-3 text-white text-lg font-medium relative">
                   <div className="absolute top-1 left-1 w-6 h-4 border-t-2 border-l-2 border-cyan-400 rounded-tl-sm transition-all ease-in duration-100 group-hover:top-2 group-hover:left-2 group-hover:w-5 group-hover:h-4"></div>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 Register
               </div>
             </Link>
-          </div>
+          </div> */}
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
@@ -85,13 +85,13 @@ const Navbar = () => {
                       {item.label}
                     </Link>
                   ))}
-                  <Link
+                  {/* <Link
                     href="/register"
                     className="bg-slate-800 hover:bg-slate-700 text-white px-4 py-2 rounded text-center mt-4"
                     onClick={() => setIsOpen(false)}
                   >
                     Register
-                  </Link>
+                  </Link> */}
                 </div>
               </SheetContent>
             </Sheet>
